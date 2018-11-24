@@ -2,9 +2,10 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_width="152dp"
+    android:layout_height="587dp"
+    tools:context=".MainActivity" tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,6 +14,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
+
+    <com.app.hackyeahlamy.Paint.PaintView
+        android:id="@+id/paintView"
+        android:layout_width="22dp"
+        android:layout_height="571dp" tools:layout_editor_absoluteY="8dp" tools:layout_editor_absoluteX="8dp"/>
+    </com.app.hackyeahlamy.Paint.PaintView>
 
 </android.support.constraint.ConstraintLayout>
