@@ -24,7 +24,7 @@ public class PaintActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.main, menu);
+        menuInflater.inflate(R.layout.activity_paint, menu);
         return super.onCreateOptionsMenu(menu);
     }
 }
